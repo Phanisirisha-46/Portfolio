@@ -1,0 +1,87 @@
+/* Apply Roboto Slab globally */
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+/* Apply Nunito only for the name */
+.roboto-slab-name {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;  
+  font-optical-sizing: auto;
+}
+
+/* Typewriter animation for name */
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0%;
+  animation: typewriter 5s steps(200, end) forwards;
+}
+
+
+.roboto-slab-name {
+  font-size: 1.5rem; 
+}
+
+/* Responsive font size for name */
+@media (max-width: 640px) {
+  .roboto-slab-name {
+    font-size: 1.125rem; /* Adjusted for mobile */
+  }
+}
+
+
+
+main
+{
+  background-color: rgb(229, 238, 229);
+  color: rgb(78, 57, 52);
+}
+
+/* card styling */
+
+.roboto-slab-name-bold {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;  /* Bold font weight */
+}
+
+/* Apply Italic Roboto for the rest */
+.roboto-italic {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+/* Add the fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+
+/* Optional - App.css for styles */
+.card:hover {
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+.link-box:hover {
+  background-color: #d3d3d3;
+  transition: background-color 0.3s ease;
+}
