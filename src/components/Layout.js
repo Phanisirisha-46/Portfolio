@@ -27,19 +27,19 @@ const Layout = ({ children }) => {
           <p className="mb-4 text-left text-gray-600 text-base">Feel free to connect through:</p>
           <div className="flex flex-wrap justify-start items-center gap-5 mb-4">
             <a href="https://github.com/Phanisirisha-46" target="_blank" rel="noopener noreferrer">
-              <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3271892/github-icon-md.png" alt="GitHub" className="w-6 h-6" />
+              <img src="https://i.ibb.co/wtBc85s/github.png" alt="GitHub" className="w-6 h-6" />
             </a>
             <a href="https://www.instagram.com/siiri.46/" target="_blank" rel="noopener noreferrer">
-              <img src="http://sandrine-houillier-design.com/wp-content/uploads/2020/08/logo-instagram-noir-350x350.png" alt="Instagram" className="w-6 h-6" />
+              <img src="https://i.ibb.co/d0b5VWhR/instagram-icon-puc.png" alt="Instagram" className="w-6 h-6" />
             </a>
             <a href="https://www.linkedin.com/in/veeranki-phani-sirisha-423179249/" target="_blank" rel="noopener noreferrer">
-              <img src="https://www.edigitalagency.com.au/wp-content/uploads/linkedin-icon-black-png.png" alt="LinkedIn" className="w-6 h-6" />
+              <img src="https://i.ibb.co/s9kTSyYc/linkedin-logo.webp" alt="LinkedIn" className="w-6 h-6" />
             </a>
             <a href="mailto:veerankiphanisirisha@example.com" target="_blank" rel="noopener noreferrer">
-              <img src="https://www.pngkey.com/png/full/14-143562_gmail-logo-png-gmail-logo-black-and-white.png" alt="Gmail" className="w-6 h-6" />
+              <img src="https://www.pngkey.com/png/full/14-143562_gmail-logo-png-gmail-logo-black-and-white.png" alt="Gmail" className="w-5 h-5" />
             </a>
           </div>
-          <p className="text-center text-sm text-gray-700">© 2025 Veeranki Phani Sirisha</p>
+          <p className="text-center text-sm text-gray-700">©2025 Veeranki Phani Sirisha. All rights reserved.</p>
         </div>
       </footer>
     </div>

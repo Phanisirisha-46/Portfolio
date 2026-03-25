@@ -8,11 +8,11 @@ function Page4() {
     },
     {
       title: 'Designing / IDE',
-      tools: [ 'VSCode', 'Google Colab'],
+      tools: [ 'Figma','VSCode', 'Google Colab' ],
     },
     {
-      title: 'ML',
-      tools: ['Scikit-learn', 'TensorFlow', 'PyTorch'],
+      title: 'ML & AI',
+      tools: ['Scikit-learn','Pandas', 'NumPy', 'Generative AI', 'LLMs'],
     },
   ];
 
