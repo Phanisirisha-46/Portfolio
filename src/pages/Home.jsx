@@ -1,14 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter';
-import { ChevronDown } from 'lucide-react';
 import './Home.css';  // Ensure this file exists
 import Page4 from './Page4';
 function Home() {
-  const scrollToSection = (id) => {
-    const el = document.getElementById(id);
-    if (el) el.scrollIntoView({ behavior: 'smooth' });
-  };
 
   return (
     <div className="flex flex-col min-h-screen font-sans  fade-in">
@@ -125,6 +120,7 @@ function Home() {
     <a
       href="https://www.hackerrank.com/veerankiphanisi1"
       target="_blank"
+      rel="noopener noreferrer"
       className="inline-block mt-4 px-4 py-2 bg-[#4e3934] text-white rounded hover:bg-[#3a2f2b]"
     >
       View Profile

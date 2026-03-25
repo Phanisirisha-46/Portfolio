@@ -50,6 +50,7 @@ const Page3 = () => {
       <a
         href="https://www.linkedin.com/posts/veeranki-phani-sirisha-423179249_gdgoc-pvpsit-techcommunity-activity-7377574476848226304-lgkj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD1tUhsBqTj_FfqR4MxuImUWC3S4VxExkZI"
         target="_blank"
+        rel="noopener noreferrer"
         className="text-lg text-[#4e3934] px-6  bg-rgb(78, 57, 52) rounded-lg  underline"
       >
         GDG LEAD

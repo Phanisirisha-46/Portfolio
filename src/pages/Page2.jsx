@@ -49,6 +49,7 @@ const Page2 = () => {
       <a
         href="https://www.pvpsiddhartha.ac.in/dep_cse/docs/NL-July-2024.pdf#page=25"
         target="_blank"
+        rel="noopener noreferrer"
         className="text-lg text-[#4e3934] px-6  bg-rgb(78, 57, 52) rounded-lg  underline"
       >
         Editorial Board Member
